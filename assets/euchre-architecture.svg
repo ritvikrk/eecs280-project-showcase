@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">Euchre game engine architecture</title>
+  <desc id="desc">A game controller coordinates a pack, card rules, player interface, and human and automated strategies.</desc>
+  <defs><linearGradient id="bg3" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#052e2b"/><stop offset="1" stop-color="#0f172a"/></linearGradient><filter id="s3"><feDropShadow dx="0" dy="8" stdDeviation="9" flood-opacity=".28"/></filter></defs>
+  <rect width="1200" height="520" rx="28" fill="url(#bg3)"/>
+  <text x="60" y="66" fill="#f8fafc" font-family="Arial, sans-serif" font-size="30" font-weight="700">Euchre Game Engine</text>
+  <text x="60" y="98" fill="#99f6e4" font-family="Arial, sans-serif" font-size="17">Rule modeling and polymorphic strategies behind a complete four-player simulation</text>
+  <g stroke="#2dd4bf" stroke-width="4" fill="none"><path d="M600 227V307"/><path d="M600 267H236V307"/><path d="M600 267H964V307"/></g>
+  <g filter="url(#s3)" font-family="Arial, sans-serif">
+    <g transform="translate(450 135)"><rect width="300" height="94" rx="18" fill="#115e59" stroke="#5eead4"/><text x="150" y="41" text-anchor="middle" fill="#ccfbf1" font-size="17" font-weight="700">GAME CONTROLLER</text><text x="150" y="69" text-anchor="middle" fill="white" font-size="19">Deal · Trump · Tricks · Score</text></g>
+    <g transform="translate(80 307)"><rect width="312" height="124" rx="18" fill="#0f3f3b" stroke="#2dd4bf"/><text x="156" y="40" text-anchor="middle" fill="#99f6e4" font-size="17" font-weight="700">CARD + PACK</text><text x="156" y="72" text-anchor="middle" fill="white" font-size="20">Ordering and deck state</text><text x="156" y="99" text-anchor="middle" fill="#94a3b8" font-size="15">Bowers · suits · shuffle · deal</text></g>
+    <g transform="translate(444 307)"><rect width="312" height="124" rx="18" fill="#0f3f3b" stroke="#2dd4bf"/><text x="156" y="40" text-anchor="middle" fill="#99f6e4" font-size="17" font-weight="700">PLAYER INTERFACE</text><text x="156" y="72" text-anchor="middle" fill="white" font-size="20">Shared game contract</text><text x="156" y="99" text-anchor="middle" fill="#94a3b8" font-size="15">Make trump · lead · play</text></g>
+    <g transform="translate(808 307)"><rect width="312" height="124" rx="18" fill="#0f3f3b" stroke="#2dd4bf"/><text x="156" y="40" text-anchor="middle" fill="#99f6e4" font-size="17" font-weight="700">PLAYER STRATEGIES</text><text x="156" y="72" text-anchor="middle" fill="white" font-size="20">Human + automated</text><text x="156" y="99" text-anchor="middle" fill="#94a3b8" font-size="15">Polymorphic decision-making</text></g>
+  </g>
+  <text x="60" y="478" fill="#5eead4" font-family="Arial, sans-serif" font-size="16">OOP · interfaces · simulation · domain modeling · memory management</text>
+</svg>
+
